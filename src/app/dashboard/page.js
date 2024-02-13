@@ -3,6 +3,7 @@ import React from "react";
 import data from "./../../data/data.json";
 import Accordion from "./../../components/accordion"
 import Card_component from "@/components/Card_component";
+import Map from "@/components/Map";
 
 export default function Dashboard() {
   console.log("data: ", data);
@@ -29,10 +30,8 @@ export default function Dashboard() {
 
         {/* maps , other buttons */}
 
-        <div className="w-1/4 bg-red-500 p-4">
-          <div>hello</div>
-
-          <div> </div>
+        <div className="w-1/4 p-4">
+          <Map/>
         </div>
       </div>
     </div>
