@@ -23,7 +23,7 @@ export default function Dashboard() {
         {/* Budget , accomodation cards */}
 
         <div className="w-2/4 bg-gray-100 p-4 w-">
-          <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-full">
+          <button className="bg-gradient-to-r from-teal-200 to-teal-400 hover:bg-gradient-to-r hover:from-teal-400 hover:to-teal-600 text-white font-bold py-2 px-4 rounded w-full">
             Click Here For Detailed Itinerary
           </button>
 
