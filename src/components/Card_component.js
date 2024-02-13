@@ -44,7 +44,7 @@ const Card_component = () => {
             </div>
             <div className="flex">
               <div className="mr-2">🍽️</div>
-              <div>restaurant: INR 3,000</div>
+              <div>Restaurant: INR 3,000</div>
             </div>
             <div className="flex">
               <div className="mr-2">💰</div>

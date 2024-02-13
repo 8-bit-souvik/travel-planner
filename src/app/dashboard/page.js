@@ -24,7 +24,7 @@ export default function Dashboard() {
 
         {/* Budget , accomodation cards */}
 
-        <div className="w-2/4 bg-gray-100 p-4 w-">
+        <div className="w-2/4 p-4 w-">
           <Card_component/>
         </div>
 
