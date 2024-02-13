@@ -2,14 +2,14 @@ import React from "react";
 
 const Card_component = () => {
   return (
-    <div className="flex gap-2 flex-col">
-      <button className="bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 text-black font-bold py-2 px-4 rounded w-full">
+    <div className="flex gap-2 flex-col ">
+      <button className="bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 text-black font-bold py-2 rounded mx-auto w-[100%] max-w-md shadow-lg shadow-slate-700">
         Click Here For Detailed Itinerary
       </button>
 
       {/* Card1 */}
 
-      <div className="max-w-md mx-auto bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden shadow-md">
+      <div className="max-w-md  bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden mx-auto w-[100%] shadow-lg shadow-slate-700">
         <div className="px-6 py-2">
           <div className="font-bold text-xl  border-b border-white pb-1 text-center">
             Kolkata Travel Essentials
@@ -32,7 +32,7 @@ const Card_component = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="max-w-md mx-auto bg-gradient-to-r from-teal-400 to-teal-200 rounded-xl overflow-hidden shadow-md ">
+      <div className="max-w-md  bg-gradient-to-r from-teal-400 to-teal-200 rounded-xl overflow-hidden shadow-md mx-auto w-[100%] shadow-lg shadow-slate-700">
         <div className="px-6 py-2">
           <div className="font-bold text-xl mb-2 border-b border-white pb-1 text-center">
             Budget
@@ -55,7 +55,7 @@ const Card_component = () => {
       </div>
 
       {/* Card3 */}
-      <div className="max-w-md mx-auto bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden shadow-md">
+      <div className="max-w-md  bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden mx-auto w-[100%] shadow-lg shadow-slate-700">
         <div className="px-14 py-6">
           <div className="font-bold text-xl mb-2 border-b border-white pb-1 text-center">
             Accomodation & Restaurant
