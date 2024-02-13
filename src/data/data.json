@@ -1,110 +1,236 @@
 {
     "itinerary": {
-        "task": "Header for the travel itinerary",
-        "number_of_days": "number of total days for which the user is traveling",
-        "destination/s": "name of the destination provided by the user",
-        "start_date": "start date of the trip in dd-mm-yyyy format",
-        "end_date": "end date of the trip in dd-mm-yyyy format",
+        "task": "Travel itinerary for the trip from 20-12-2023 to 22-12-2023 to Kolkata",
+        "number_of_days": "3",
+        "destination/s": "Kolkata",
+        "start_date": "20-12-2023",
+        "end_date": "22-12-2023",
         "days": {
-            "Day %": {
+            "Day 1": {
                 "attractions": {
-                    "name of the first place/attraction scheduled": {
-                        "name": "name of the attraction",
-                        "Description": "Information about the place, be it historic or something else in 50 words",
-                        "Detailed Description": "100 word detailed description of the place",
-                        "start_time": "scheduled visiting time",
-                        "end_time": "scheduled end time of the visit",
-                        "Visiting_Hours": "time of the day during which the attraction is open to the public",
-                        "rating": "rating given to the attraction out of 10",
-                        "caution": "Things to take care of while visiting, for example, Photography not allowed in the temple",
-                        "longitude_of_the_attraction": "accurate longitude of the attraction in decimal instead of degree",
-                        "latitude_of_the_attraction": "accurate latitude of the attraction in decimal instead of degree",
+                    "Victoria Memorial": {
+                        "name": "Victoria Memorial",
+                        "Description": "Victoria Memorial is a large marble building in Kolkata, West Bengal, India, dedicated to the memory of Queen Victoria. It offers a beautiful view of the city and houses a museum showcasing the history of Kolkata.",
+                        "Detailed Description": "Victoria Memorial is a magnificent white marble building located in Kolkata, West Bengal. It was built in memory of Queen Victoria and is now a popular tourist attraction. The memorial houses a museum that displays a wide range of artifacts and artworks, providing insight into the history and culture of Kolkata. Visitors can take a leisurely stroll in the surrounding gardens and enjoy the serene atmosphere. The memorial also offers a stunning view of the city from its terrace.",
+                        "start_time": "10:00 AM",
+                        "end_time": "12:00 PM",
+                        "Visiting_Hours": "10:00 AM - 5:00 PM",
+                        "rating": "9",
+                        "caution": "Photography is allowed only in designated areas",
+                        "longitude_of_the_attraction": "22.5448",
+                        "latitude_of_the_attraction": "88.3426",
                         "Nearest_Hospital": [
-                            "Name of nearest hospital",
-                            "contact number of the hospital",
-                            "latitude of the hospital",
-                            "longitude of the hospital"
-                        ]
-                    },
-                    "name of the second place/attraction scheduled": {
-                        "name": "name of the attraction",
-                        "Description": "Information about the place, be it historic or something else in 50 words",
-                        "Detailed Description": "100 word detailed description of the place",
-                        "start_time": "scheduled visiting time",
-                        "end_time": "scheduled end time of the visit",
-                        "Visiting_Hours": "time of the day during which the attraction is open to the public",
-                        "rating": "rating given to the attraction out of 10",
-                        "caution": "Things to take care of while visiting, for example, Photography not allowed in the temple",
-                        "longitude_of_the_attraction": "accurate longitude of the attraction in decimal instead of degree",
-                        "latitude_of_the_attraction": "accurate latitude of the attraction in decimal instead of degree",
-                        "Nearest_Hospital": [
-                            "Name of nearest hospital",
-                            "contact number of the hospital",
-                            "latitude of the hospital",
-                            "longitude of the hospital"
+                            "Belle Vue Clinic",
+                            "+91-33-2287-2321",
+                            "22.5379",
+                            "88.3515"
                         ]
                     }
                 },
                 "restaurants": {
-                    "restaurant name": {
-                        "restaurant_name": "Name of the restaurant for BreakFast",
-                        "rating": "rating out of the restaurant",
-                        "speciality": "signature dishes of the restaurant",
-                        "longitude_of_the_restaurant": "accurate longitude of the attraction in decimal instead of degree",
-                        "latitude_of_the_restaurant": "accurate latitude of the attraction in decimal instead of degree",
-                        "Emergency_contact": "Contact number of emergency services near the restaurant",
+                    "BreakFast": {
+                        "restaurant_name": "Flurys",
+                        "rating": "8",
+                        "speciality": "English breakfast, pastries, and desserts",
+                        "longitude_of_the_restaurant": "22.5529",
+                        "latitude_of_the_restaurant": "88.3535",
+                        "Emergency_contact": "911",
                         "Nearest_Hospital": [
-                            "Name of nearest hospital",
-                            "latitude of the hospital",
-                            "longitude of the hospital"
+                            "Woodlands Multispeciality Hospital",
+                            "22.5510",
+                            "88.3526"
                         ]
                     },
-                    "restaurant name": {
-                        "restaurant_name": "Name of the restaurant for lunch",
-                        "rating": "rating out of the restaurant",
-                        "speciality": "signature dishes of the restaurant",
-                        "longitude_of_the_restaurant": "accurate longitude of the attraction in decimal instead of degree",
-                        "latitude_of_the_restaurant": "accurate latitude of the attraction in decimal instead of degree",
-                        "Emergency_contact": "Contact number of emergency services near the restaurant",
+                    "Lunch": {
+                        "restaurant_name": "Kewpie's Kitchen",
+                        "rating": "9",
+                        "speciality": "Authentic Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5395",
+                        "latitude_of_the_restaurant": "88.3610",
+                        "Emergency_contact": "911",
                         "Nearest_Hospital": [
-                            "Name of nearest hospital",
-                            "latitude of the hospital",
-                            "longitude of the hospital"
+                            "Park Circus Hospital",
+                            "22.5397",
+                            "88.3765"
                         ]
                     },
-                    "restaurant name": {
-                        "restaurant_name": "Name of the restaurant for dinner",
-                        "rating": "rating out of the restaurant",
-                        "speciality": "signature dishes of the restaurant",
-                        "longitude_of_the_restaurant": "accurate longitude of the attraction in decimal instead of degree",
-                        "latitude_of_the_restaurant": "accurate latitude of the attraction in decimal instead of degree",
-                        "Emergency_contact": "Contact number of emergency services near the restaurant",
+                    "Dinner": {
+                        "restaurant_name": "Arsalan",
+                        "rating": "7",
+                        "speciality": "Mughlai cuisine",
+                        "longitude_of_the_restaurant": "22.5444",
+                        "latitude_of_the_restaurant": "88.3520",
+                        "Emergency_contact": "911",
                         "Nearest_Hospital": [
-                            "Name of nearest hospital",
-                            "latitude of the hospital",
-                            "longitude of the hospital"
+                            "Belle Vue Clinic",
+                            "22.5379",
+                            "88.3515"
+                        ]
+                    }
+                }
+            },
+            "Day 2": {
+                "attractions": {
+                    "Howrah Bridge": {
+                        "name": "Howrah Bridge",
+                        "Description": "Howrah Bridge is a cantilever bridge that spans the Hooghly River in Kolkata. It is one of the iconic landmarks of the city and a major transportation hub.",
+                        "Detailed Description": "Howrah Bridge is a famous cantilever bridge that connects Kolkata with Howrah over the Hooghly River. It is one of the iconic landmarks of the city and a major transportation hub. The bridge is a marvel of engineering and attracts visitors with its intricate design and grandeur. Tourists can take a stroll on the bridge and enjoy the breathtaking views of the river and the cityscape. The bridge is also a popular spot for photography enthusiasts. It is a must-visit attraction for anyone visiting Kolkata.",
+                        "start_time": "10:00 AM",
+                        "end_time": "11:00 AM",
+                        "Visiting_Hours": "24/7",
+                        "rating": "9",
+                        "caution": "No entry for vehicles",
+                        "longitude_of_the_attraction": "22.5851",
+                        "latitude_of_the_attraction": "88.3476",
+                        "Nearest_Hospital": [
+                            "Howrah State General Hospital",
+                            "+91-33-2660-5800",
+                            "22.5830",
+                            "88.3505"
+                        ]
+                    }
+                },
+                "shopping_mall": {
+                    "name": "City Centre Mall",
+                    "Description": "City Centre Mall is a popular shopping destination in Kolkata. It offers a wide range of shops, restaurants, and entertainment options.",
+                    "Detailed Description": "City Centre Mall is a popular shopping destination located in Kolkata, West Bengal. It is a multi-storeyed mall that offers a wide range of shops, including clothing stores, electronics stores, and more. The mall also has a variety of restaurants and food courts, offering a range of cuisines. In addition to shopping and dining, City Centre Mall also features entertainment options such as a cinema and gaming zone. It is a great place to spend a day exploring the latest trends, enjoying delicious food, and watching a movie.",
+                    "start_time": "2:00 PM",
+                    "end_time": "4:00 PM",
+                    "Visiting_Hours": "10:00 AM - 10:00 PM",
+                    "rating": "8",
+                    "caution": "Follow the mall's rules and regulations",
+                    "longitude_of_the_mall": "22.5732",
+                    "latitude_of_the_mall": "88.4344",
+                    "Nearest_Hospital": [
+                        "Ruby General Hospital",
+                        "+91-33-3987-6000",
+                        "22.5170",
+                        "88.4087"
+                    ]
+                },
+                "restaurants": {
+                    "BreakFast": {
+                        "restaurant_name": "Nizam's",
+                        "rating": "7",
+                        "speciality": "Kathi rolls and biryani",
+                        "longitude_of_the_restaurant": "22.5759",
+                        "latitude_of_the_restaurant": "88.3547",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "Howrah State General Hospital",
+                            "22.5830",
+                            "88.3505"
+                        ]
+                    },
+                    "Lunch": {
+                        "restaurant_name": "Oh! Calcutta",
+                        "rating": "9",
+                        "speciality": "Authentic Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5427",
+                        "latitude_of_the_restaurant": "88.3613",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "Park Circus Hospital",
+                            "22.5397",
+                            "88.3765"
+                        ]
+                    },
+                    "Dinner": {
+                        "restaurant_name": "6 Ballygunge Place",
+                        "rating": "8",
+                        "speciality": "Traditional Bengali thali",
+                        "longitude_of_the_restaurant": "22.5197",
+                        "latitude_of_the_restaurant": "88.3677",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "AMRI Hospital",
+                            "22.5078",
+                            "88.3523"
+                        ]
+                    }
+                }
+            },
+            "Day 3": {
+                "attractions": {
+                    "Indian Museum": {
+                        "name": "Indian Museum",
+                        "Description": "Indian Museum is the largest and oldest museum in India. It houses a vast collection of artifacts and artworks from various periods of history.",
+                        "Detailed Description": "Indian Museum is the largest and oldest museum in India, located in Kolkata. It houses a vast collection of artifacts and artworks from various periods of history, including archaeological treasures, sculptures, paintings, and more. The museum provides a fascinating glimpse into the rich cultural heritage of India. Visitors can explore the different galleries and learn about the country's history and art. The museum also organizes exhibitions and educational programs. It is a must-visit for history and art enthusiasts.",
+                        "start_time": "10:00 AM",
+                        "end_time": "1:00 PM",
+                        "Visiting_Hours": "10:00 AM - 5:00 PM",
+                        "rating": "9",
+                        "caution": "Photography is allowed only in designated areas",
+                        "longitude_of_the_attraction": "22.5587",
+                        "latitude_of_the_attraction": "88.3505",
+                        "Nearest_Hospital": [
+                            "Belle Vue Clinic",
+                            "+91-33-2287-2321",
+                            "22.5379",
+                            "88.3515"
+                        ]
+                    }
+                },
+                "restaurants": {
+                    "BreakFast": {
+                        "restaurant_name": "Balaram Mullick & Radharaman Mullick Sweets",
+                        "rating": "9",
+                        "speciality": "Bengali sweets",
+                        "longitude_of_the_restaurant": "22.5773",
+                        "latitude_of_the_restaurant": "88.3915",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "Park Circus Hospital",
+                            "22.5397",
+                            "88.3765"
+                        ]
+                    },
+                    "Lunch": {
+                        "restaurant_name": "Bhojohori Manna",
+                        "rating": "8",
+                        "speciality": "Authentic Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5720",
+                        "latitude_of_the_restaurant": "88.3641",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "Howrah State General Hospital",
+                            "22.5830",
+                            "88.3505"
+                        ]
+                    },
+                    "Dinner": {
+                        "restaurant_name": "Saptapadi Restaurant",
+                        "rating": "7",
+                        "speciality": "Multi-cuisine",
+                        "longitude_of_the_restaurant": "22.5271",
+                        "latitude_of_the_restaurant": "88.3504",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": [
+                            "Belle Vue Clinic",
+                            "22.5379",
+                            "88.3515"
                         ]
                     }
                 }
             }
         },
         "accommodation": {
-            "hotel name": "name of the hotel",
-            "rating": "rating of the hotel",
-            "speciality": "special facilities provided",
-            "longitude_of_the_hotel": "accurate longitude of the attraction in decimal instead of degree",
-            "latitude_of_the_hotel": "accurate latitude of the attraction in decimal instead of degree",
-            "Emergency_contact": "Contact number of emergency services near the hotel",
+            "hotel name": "The Oberoi Grand",
+            "rating": "9",
+            "speciality": "Luxurious rooms, spa, and swimming pool",
+            "longitude_of_the_hotel": "22.5588",
+            "latitude_of_the_hotel": "88.3523",
+            "Emergency_contact": "911",
             "Nearest_Hospital": [
-                "Name of nearest hospital",
-                "latitude of the hospital",
-                "longitude of the hospital"
+                "Belle Vue Clinic",
+                "22.5379",
+                "88.3515"
             ]
         },
         "budget": {
-            "accommodation": "Estimated cost of accommodation in INR",
-            "restaurant": "Estimated cost of the restaurant in INR",
-            "Total estimate including other charges": "Total estimate for the trip"
+            "accommodation": "INR 10,000",
+            "restaurant": "INR 3,000",
+            "Total estimate including other charges": "INR 15,000"
         }
     }
 }
