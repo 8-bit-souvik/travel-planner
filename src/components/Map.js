@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image'
+import kolkata from  "../assets/kolkata.jpg"
 
 const Map = () => {
   return (
@@ -17,12 +19,15 @@ const Map = () => {
           <span className="mr-2">📖</span>Storytelling Mode
         </button>
       </div>
-      <div className="h-3/5">
-        {/* Add your map component here */}
-        <div className="bg-gray-300 h-full">
-          {/* Placeholder for the map */}
-          Map Component
-        </div>
+      <div className="h-3/5 relative">
+        <Image
+          src={kolkata} // Replace with your actual map image path
+          height={600}
+          width={400}
+          alt="map"
+          objectFit="cover"
+          className="rounded mt-16"
+        />
       </div>
     </div>
   );
