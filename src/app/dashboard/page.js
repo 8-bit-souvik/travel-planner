@@ -16,24 +16,27 @@ export default function Dashboard() {
 
         {/* Budget , accomodation cards */}
 
-        <div className="w-2/4 bg-green-500 p-4 w-">
-          <div>Click Here For detailed Itenary</div>
-          <div class="max-w-md mx-auto bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden shadow-md">
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 border-b border-white pb-1">
+        <div className="w-2/4 bg-gray-100 p-4 w-">
+          <button className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded w-full">
+            Click Here For Detailed Itinerary
+          </button>
+
+          <div className="max-w-md mx-auto bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden shadow-md">
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2 border-b border-white pb-1">
                 Kolkata Travel Essentials
               </div>
-              <div class="space-y-2">
-                <div class="flex">
-                  <div class="mr-2">🌤️</div>
+              <div className="space-y-2">
+                <div className="flex">
+                  <div className="mr-2">🌤️</div>
                   <div>Weather: Sunny with a touch of history</div>
                 </div>
-                <div class="flex">
-                  <div class="mr-2">⏳</div>
+                <div className="flex">
+                  <div className="mr-2">⏳</div>
                   <div>Ideal duration for travel: 3-4 days</div>
                 </div>
-                <div class="flex">
-                  <div class="mr-2">🌟</div>
+                <div className="flex">
+                  <div className="mr-2">🌟</div>
                   <div>
                     Best Time to visit: All year round, but avoid monsoon
                   </div>
