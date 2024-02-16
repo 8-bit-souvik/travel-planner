@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
@@ -15,7 +15,7 @@ const center = {
 function Map() {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyD9_8m53X6Ok26JQD31zkyVIg7Mf8_doow"
+    googleMapsApiKey: "AIzaSyBLnhXQjitfuEHMz3dQKLlquraQ8Yzk03Q"
   })
 
   const [map, setMap] = React.useState(null)
@@ -37,13 +37,16 @@ function Map() {
         mapContainerStyle={containerStyle}
         center={center}
         zoom={10}
-        onLoad={onLoad}
+        onLoad={map => {
+            const bounds = new window.google.maps.LatLngBounds();
+            map.fitBounds(bounds);
+          }}
         onUnmount={onUnmount}
       >
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
-  ) : <></>
+  ) : <>There's a problem with map</>
 }
 
 

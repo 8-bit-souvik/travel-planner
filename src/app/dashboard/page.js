@@ -1,16 +1,17 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import data from "./../../data/data.json";
+import place_removed_data from "./../../data/place_removed_data.json";
+import time_removed_data from "./../../data/time_removed_data.json";
 import Accordion from "./../../components/accordion";
 import Card_component from "@/components/Card_component";
 import Map from "@/components/Map";
 import Image from "next/image";
 import backgroundImg from "./../../assets/howrah-bridge.jpg";
 import Nabvar from "./../../components/navbar";
-import { useState } from "react";
 import Selection_modal from "@/components/Selection_Modal";
-import Accordion2 from "@/components/Accordion2";
-import Accordion3 from "@/components/Accordion3";
+import Accordion2 from "@/components/Accordion_place_removed";
+import Accordion3 from "@/components/Accordion_time_removed";
 
 export default function Dashboard() {
   // console.log("data: ", data);
@@ -26,9 +27,16 @@ export default function Dashboard() {
     setAccordian(params);
   }
 
+  const [modal, setmodal] = useState(false)
+  const openModal = (state) => {
+    console.log("state: ", state);
+    setmodal(state)
+  }
+
   return (
     <div className="flex flex-col w-full  h-[100vh]">
-      <Selection_modal modalstate={modalstate} accordionNumber={accordionNumber}/>
+
+      <Selection_modal modalstate={modalstate} accordionNumber={accordionNumber} />
       <Nabvar />
 
       <div className="flex w-full h-full pt-[20px]">
@@ -44,8 +52,8 @@ export default function Dashboard() {
           </h1>
           <div className="">
             {accordian === 1 && <Accordion data={data?.itinerary?.days} />}
-            {accordian === 2 && <Accordion2/>}
-            {accordian === 3 && <Accordion3/>}
+            {accordian === 2 && <Accordion2 data={place_removed_data?.itinerary?.days} />}
+            {accordian === 3 && <Accordion3 data={time_removed_data?.itinerary?.days} />}
           </div>
         </div>
 
@@ -58,7 +66,8 @@ export default function Dashboard() {
         {/* maps , other buttons */}
 
         <div className="w-1/4 p-4">
-          <Map xyz={xyz}/>
+          <Map xyz={xyz} />
+
         </div>
       </div>
     </div>
