@@ -10,6 +10,7 @@ import Image from "next/image";
 import backgroundImg from "./../../assets/howrah-bridge.jpg";
 import Nabvar from "./../../components/navbar";
 import Selection_modal from "@/components/Selection_Modal";
+import Itenerary_Modal from "@/components/Itenerary_Modal";
 
 export default function Dashboard() {
   // console.log("data: ", data);
@@ -33,8 +34,8 @@ export default function Dashboard() {
 
   return (
     <div className="flex flex-col w-full  h-[100vh]">
-
-      <Selection_modal modalstate={modalstate} accordionNumber={accordionNumber} />
+      <Selection_modal modalstate={modalstate} accordionNumber={accordionNumber}/>
+      <Itenerary_Modal/>
       <Nabvar />
 
       <div className="flex w-full h-full pt-[20px]">
