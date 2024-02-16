@@ -10,8 +10,6 @@ import Image from "next/image";
 import backgroundImg from "./../../assets/howrah-bridge.jpg";
 import Nabvar from "./../../components/navbar";
 import Selection_modal from "@/components/Selection_Modal";
-import Accordion2 from "@/components/Accordion_place_removed";
-import Accordion3 from "@/components/Accordion_time_removed";
 
 export default function Dashboard() {
   // console.log("data: ", data);
@@ -52,8 +50,8 @@ export default function Dashboard() {
           </h1>
           <div className="">
             {accordian === 1 && <Accordion data={data?.itinerary?.days} />}
-            {accordian === 2 && <Accordion2 data={place_removed_data?.itinerary?.days} />}
-            {accordian === 3 && <Accordion3 data={time_removed_data?.itinerary?.days} />}
+            {accordian === 2 && <Accordion data={place_removed_data?.itinerary?.days} />}
+            {accordian === 3 && <Accordion data={time_removed_data?.itinerary?.days} />}
           </div>
         </div>
 
