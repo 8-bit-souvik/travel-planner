@@ -32,7 +32,7 @@ const Card_component = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="max-w-md  bg-gradient-to-r from-teal-400 to-teal-200 rounded-xl overflow-hidden shadow-md mx-auto w-[100%] shadow-lg shadow-slate-700">
+      <div className="max-w-md  bg-gradient-to-r from-teal-400 to-teal-200 rounded-xl overflow-hidden shadow-md mx-auto w-[100%] shadow-slate-700">
         <div className="px-6 py-2">
           <div className="font-bold text-xl mb-2 border-b border-white pb-1 text-center">
             Budget

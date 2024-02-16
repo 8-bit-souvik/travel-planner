@@ -11,12 +11,19 @@ import backgroundImg from "./../../assets/howrah-bridge.jpg";
 import Nabvar from "./../../components/navbar";
 import Selection_modal from "@/components/Selection_Modal";
 import Itenerary_Modal from "@/components/Itenerary_Modal";
+import {useDisclosure} from "@nextui-org/react";
 
 export default function Dashboard() {
   // console.log("data: ", data);
   const [accordian, setAccordian] = useState(1);
   const [modalstate, setModalstate] = useState(false);
-  console.log("modalstate", modalstate);
+  const [modal, setmodal] = useState(false)
+  const [iteneraryData, setIteneraryData] = useState(false);
+
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  //console.log("modalstate", modalstate);
+
   function xyz(params) {
     setModalstate(params);
   }
@@ -26,16 +33,22 @@ export default function Dashboard() {
     setAccordian(params);
   }
 
-  const [modal, setmodal] = useState(false)
+ 
   const openModal = (state) => {
     console.log("state: ", state);
     setmodal(state)
   }
 
+  function IteneraryState(e,data)
+  {
+     console.log({e,data});
+     setIteneraryData({e,data});
+  }
+
   return (
     <div className="flex flex-col w-full  h-[100vh]">
       <Selection_modal modalstate={modalstate} accordionNumber={accordionNumber}/>
-      <Itenerary_Modal/>
+      <Itenerary_Modal iteneraryData={iteneraryData}/>
       <Nabvar />
 
       <div className="flex w-full h-full pt-[20px]">
@@ -50,9 +63,9 @@ export default function Dashboard() {
             Three Days Trip to kolkata
           </h1>
           <div className="">
-            {accordian === 1 && <Accordion data={data?.itinerary?.days} />}
-            {accordian === 2 && <Accordion data={place_removed_data?.itinerary?.days} />}
-            {accordian === 3 && <Accordion data={time_removed_data?.itinerary?.days} />}
+            {accordian === 1 && <Accordion data={data?.itinerary?.days} IteneraryState={IteneraryState}/>}
+            {accordian === 2 && <Accordion data={place_removed_data?.itinerary?.days} IteneraryState={IteneraryState}/>}
+            {accordian === 3 && <Accordion data={time_removed_data?.itinerary?.days} IteneraryState={IteneraryState}/>}
           </div>
         </div>
 
