@@ -68,7 +68,6 @@ const Map = ({ positions = markers, zoom=10 }) => {
                         zoom={zoom}
                         // onLoad={onLoad}
                         onUnmount={onUnmount}
-
                     >
 
                         {marker.map((item, index) => {

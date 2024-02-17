@@ -44,7 +44,7 @@ export default function Itenerary_Modal({ iteneraryData }) {
               <ModalHeader className="flex flex-col gap-1 text-4xl mx-auto text-blue-800">
                 Detailed Itenerary
               </ModalHeader>
-              <ModalBody className="flex flex-row">
+              <ModalBody className="flex flex-row justify-evenly">
                 <div className=" max-w-[50%]">
                   <p className="font-bold text-2xl text-teal-700 pb-4">{iteneraryData.data["name"]}</p>
                   <p className="text-[14.5px] pb-3">{iteneraryData.data["Detailed Description"]}</p>
