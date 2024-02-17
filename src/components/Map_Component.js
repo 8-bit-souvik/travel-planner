@@ -1,53 +1,91 @@
-"use client";
-import React from 'react'
-import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import { Autocomplete } from '@react-google-maps/api';
+import { useState, useEffect, useCallback } from "react";
 
 const containerStyle = {
-  width: '400px',
-  height: '400px'
+    width: '360px',
+    height: '360px'
 };
 
-const center = {
-  lat: -3.745,
-  lng: -38.523
-};
+const markers = [{
+    lat: 22.9448082,
+    lng: 88.7377942
+},
+{
+    lat: 22.5448082,
+    lng: 88.3377942
+},
+{
+    lat: 22.1448082,
+    lng: 88.9377942
+}]
 
-function Map() {
-  const { isLoaded } = useJsApiLoader({
-    id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyBLnhXQjitfuEHMz3dQKLlquraQ8Yzk03Q"
-  })
 
-  const [map, setMap] = React.useState(null)
+const Map = ({ positions = markers, zoom=10 }) => {
 
-  const onLoad = React.useCallback(function callback(map) {
-    // This is just an example of getting and using the map instance!!! don't just blindly copy!
-    const bounds = new window.google.maps.LatLngBounds(center);
-    map.fitBounds(bounds);
+    console.log("positions: ", positions);
 
-    setMap(map)
-  }, [])
+    const [marker, setmarker] = useState(positions);
 
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null)
-  }, [])
+    useEffect(() => {
+        setmarker(positions)
+    }, [positions])
 
-  return isLoaded ? (
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={10}
-        onLoad={map => {
-            const bounds = new window.google.maps.LatLngBounds();
-            map.fitBounds(bounds);
-          }}
-        onUnmount={onUnmount}
-      >
-        { /* Child components, such as markers, info windows, etc. */ }
-        <></>
-      </GoogleMap>
-  ) : <>There's a problem with map</>
+    var center = { lat: 0, lng: 0 }
+    positions.forEach((item, index) => {
+        center = { lat: center["lat"]+item["lat"], lng: center["lng"]+item["lng"]  }
+    })
+    center = { lat: center["lat"]/positions.length, lng: center["lng"]/positions.length }
+
+
+    const { isLoaded } = useJsApiLoader({
+        id: 'google-map-script',
+        googleMapsApiKey: "AIzaSyBLnhXQjitfuEHMz3dQKLlquraQ8Yzk03Q"
+    })
+
+    const [map, setMap] = useState(null)
+
+    const onLoad = useCallback(function callback(map) {
+        // This is just an example of getting and using the map instance!!! don't just blindly copy!
+        const bounds = new window.google.maps.LatLngBounds(marker);
+        map.fitBounds(bounds);
+
+        setMap(map)
+    }, [])
+
+    const onUnmount = useCallback(function callback(map) {
+        setMap(null)
+    }, [])
+
+    return (
+
+        <div className="h-[12rem] bg-slate-200 my-[1rem]">
+            {
+                isLoaded ? (
+                    <GoogleMap
+                        mapContainerStyle={containerStyle}
+                        center={center}
+                        zoom={zoom}
+                        // onLoad={onLoad}
+                        onUnmount={onUnmount}
+
+                    >
+
+                        {marker.map((item, index) => {
+                            return (
+                                <Marker
+                                    // key="marker_1"
+                                    position={item}
+
+                                />
+                            )
+                        })}
+                        <></>
+                    </GoogleMap>
+                ) : <></>
+            }
+        </div>
+    )
 }
-
 
 export default Map

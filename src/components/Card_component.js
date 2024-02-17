@@ -3,9 +3,6 @@ import React from "react";
 const Card_component = () => {
   return (
     <div className="flex gap-2 flex-col ">
-      <button className="bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 text-black font-bold py-2 rounded mx-auto w-[100%] max-w-md shadow-lg shadow-slate-700">
-        Click Here For Detailed Itinerary
-      </button>
 
       {/* Card1 */}
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
-export default function App({ data , IteneraryState}) {
+export default function App({ data, IteneraryState, updateAccordianIndex }) {
   const blue_gradient =
     "bg-gradient-to-r from-blue-400 to-blue-600 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-700 hover:text-[#fff] transition ease-in-out delay-300";
   //console.log("data: ", data);
@@ -11,27 +11,27 @@ export default function App({ data , IteneraryState}) {
 
 
   return (
-    <Accordion defaultExpandedKeys={["1"]}>
+    <Accordion defaultExpandedKeys={["1"]} onSelectionChange={(e) => { updateAccordianIndex(e["currentKey"]-1) }} >
       <AccordionItem
         key="1"
         aria-label="Day 1"
         title="Day 1"
         className=" bg-[#b7e4ff] rounded-[12px] p-[5px] px-[20px] mb-[15px] bg-gradient-to-r from-[#c5e9ff] to-[#97d0f3] shadow-lg shadow-slate-700"
       >
-        <div className="max-h-[20rem] overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
+        <div className="max-h-[20rem] overflow-y-auto scrollbar-thin scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
           {Object.entries(data["Day 1"]?.attractions).map((item, index) => {
             return (
               <div
-                className={`pb-2 mb-3 ${
-                  Object.entries(data["Day 1"]?.attractions).length - 1 == index
+                key={index}
+                className={`pb-2 mb-3 ${Object.entries(data["Day 1"]?.attractions).length - 1 == index
                     ? ""
                     : "border-b-2 border-[#82b3c3]"
-                }`}
+                  }`}
               >
                 <p className="font-semibold text-[#103a5d] tracking-widest text-[25px] flex flex-row justify-between ">
                   {item[1]["name"]}
                   <button
-                    onClick={(e) => {IteneraryState(e,item[1])}}
+                    onClick={(e) => { IteneraryState(e, item[1]) }}
                     className={`${blue_gradient} text-black text-[12px] font-bold mr-4 py-[3px] px-5 rounded w-auto shadow-lg shadow-slate-700`}
                   >
                     Detailed Itinerary
@@ -66,20 +66,20 @@ export default function App({ data , IteneraryState}) {
         title="Day 2"
         className=" bg-[#b7e4ff] rounded-[12px] p-[5px] px-[20px] mb-[15px]  bg-gradient-to-r from-[#97d0f3] to-[#c5e9ff] shadow-lg shadow-slate-700"
       >
-        <div className="max-h-[20rem] overflow-y-auto scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
+        <div className="max-h-[20rem] overflow-y-auto scrollbar-thin scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
           {Object.entries(data["Day 2"]?.attractions).map((item, index) => {
             return (
               <div
-                className={`pb-2 mb-3 ${
-                  Object.entries(data["Day 2"]?.attractions).length - 1 == index
+                key={index}
+                className={`pb-2 mb-3 ${Object.entries(data["Day 2"]?.attractions).length - 1 == index
                     ? ""
                     : "border-b-2 border-[#82b3c3]"
-                }`}
+                  }`}
               >
                 <p className="font-semibold text-[#103a5d] tracking-widest text-[25px] flex flex-row justify-between ">
                   {item[1]["name"]}
                   <button
-                    onClick={(e) => {IteneraryState(e,item[1])}}
+                    onClick={(e) => { IteneraryState(e, item[1]) }}
                     className={`${blue_gradient} text-black text-[12px] font-bold mr-4 py-[3px] px-5 rounded w-auto shadow-lg shadow-slate-700`}
                   >
                     Detailed Itinerary
@@ -114,20 +114,20 @@ export default function App({ data , IteneraryState}) {
         title="Day 3"
         className=" bg-[#b7e4ff] rounded-[12px] p-[5px] px-[20px]  bg-gradient-to-r from-[#c5e9ff] to-[#97d0f3] shadow-lg shadow-slate-700"
       >
-        <div className="max-h-[20rem] overflow-y-auto scrollbar scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
+        <div className="max-h-[20rem] overflow-y-auto scrollbar-thin scrollbar-thumb-sky-700 scrollbar-track-sky-300 ">
           {Object.entries(data["Day 3"]?.attractions).map((item, index) => {
             return (
               <div
-                className={`pb-2 mb-3 ${
-                  Object.entries(data["Day 3"]?.attractions).length - 1 == index
+                key={index}
+                className={`pb-2 mb-3 ${Object.entries(data["Day 3"]?.attractions).length - 1 == index
                     ? ""
                     : "border-b-2 border-[#82b3c3]"
-                }`}
+                  }`}
               >
                 <p className="font-semibold text-[#103a5d] tracking-widest text-[25px] flex flex-row justify-between ">
                   {item[1]["name"]}
                   <button
-                    onClick={(e) => {IteneraryState(e,item[1])}}
+                    onClick={(e) => { IteneraryState(e, item[1]) }}
                     className={`${blue_gradient} text-black text-[12px] font-bold mr-4 py-[3px] px-5 rounded w-auto shadow-lg shadow-slate-700`}
                   >
                     Detailed Itinerary

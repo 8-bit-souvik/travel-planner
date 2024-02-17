@@ -17,13 +17,13 @@
                         "Visiting_Hours": "10:00 AM - 5:00 PM",
                         "rating": "9",
                         "caution": "Photography is allowed only in designated areas",
-                        "longitude_of_the_attraction": "22.5448",
-                        "latitude_of_the_attraction": "88.3426",
+                        "longitude_of_the_attraction": "87.1277942",
+                        "latitude_of_the_attraction": "22.6648082",
                         "Nearest_Hospital": [
                             "Belle Vue Clinic",
                             "+91-33-2287-2321",
-                            "22.5379",
-                            "88.3515"
+                            "22.5448082",
+                            "88.3377942"
                         ]
                     }
                 },
@@ -32,8 +32,8 @@
                         "restaurant_name": "Flurys",
                         "rating": "8",
                         "speciality": "English breakfast, pastries, and desserts",
-                        "longitude_of_the_restaurant": "22.5529",
-                        "latitude_of_the_restaurant": "88.3535",
+                        "longitude_of_the_restaurant": "88.3535104",
+                        "latitude_of_the_restaurant": "22.5529415",
                         "Emergency_contact": "911",
                         "Nearest_Hospital": [
                             "Woodlands Multispeciality Hospital",
@@ -80,8 +80,8 @@
                         "Visiting_Hours": "24/7",
                         "rating": "9",
                         "caution": "No entry for vehicles",
-                        "longitude_of_the_attraction": "22.5851",
-                        "latitude_of_the_attraction": "88.3476",
+                        "longitude_of_the_attraction": "88.3535104",
+                        "latitude_of_the_attraction": "22.5529415",
                         "Nearest_Hospital": [
                             "Howrah State General Hospital",
                             "+91-33-2660-5800",
@@ -161,8 +161,8 @@
                         "Visiting_Hours": "10:00 AM - 5:00 PM",
                         "rating": "9",
                         "caution": "Photography is allowed only in designated areas",
-                        "longitude_of_the_attraction": "22.5587",
-                        "latitude_of_the_attraction": "88.3505",
+                        "longitude_of_the_attraction": "88.0277942",
+                        "latitude_of_the_attraction": "22.2648082",
                         "Nearest_Hospital": [
                             "Belle Vue Clinic",
                             "+91-33-2287-2321",
