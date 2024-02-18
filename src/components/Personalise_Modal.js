@@ -13,7 +13,7 @@ import Image from "next/image";
 import submitSuccessAnimation from './../assets/submit_success.json'
 import Lottie from "lottie-react";
 
-export default function Selection_modal({ personaliseModalstate }) {
+export default function Selection_modal({ personaliseModalstate, accordionNumber }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [size, setSize] = React.useState("3xl");
   const [submitted, setsubmitted] = useState(false)
@@ -48,6 +48,7 @@ export default function Selection_modal({ personaliseModalstate }) {
 
       setTimeout(() => {
         onClose()
+        accordionNumber(4);
       }, 3000);
     }
   }
@@ -88,16 +89,9 @@ export default function Selection_modal({ personaliseModalstate }) {
                     </div>
                     <p className="text-[20px] font-medium text-[#4695c1]">We recived your preferences!</p>
                   </div>
-                  : <p className="bg-[#d3e6f5] rounded-lg h-[15rem] p-5 outline-none whitespace-break-spaces overflow-auto" contentEditable>
-                    My travel plan is: <br /> <br />
-                    1.  place: Science city <br />
-                    &nbsp;   time: 8:00am - 3:00pm <br />
-                    &nbsp;   date: 24/02/2024 <br />
-                    &nbsp;   total persons: 3 <br />
-                    ...
+                  : <textarea placeholder="Please type your preferences..." className="bg-[#d3e6f5] rounded-lg h-[15rem] p-5 outline-none whitespace-break-spaces overflow-auto" contentEditable>
 
-
-                  </p>}
+                  </textarea>}
               </ModalBody>
               <ModalFooter>
                 <Button className={`${submitted ? "px-8 cursor-not-allowed" : "bg-[#5087ad] text-white px-8 hover:bg-[#3e7196]"} `} variant="light" onPress={closeModal}>

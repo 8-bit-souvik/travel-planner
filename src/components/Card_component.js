@@ -2,13 +2,13 @@ import React from "react";
 
 const Card_component = () => {
   return (
-    <div className="flex gap-2 flex-col ">
+    <div className="flex gap-4 flex-col ">
 
       {/* Card1 */}
 
       <div className="max-w-md  bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden mx-auto w-[100%] shadow-lg shadow-slate-700">
         <div className="px-6 py-2">
-          <div className="font-bold text-xl  border-b border-white pb-1 text-center">
+          <div className="font-bold text-xl  border-b border-white py-1 pb-2 text-center">
             Kolkata Travel Essentials
           </div>
           <div className="space-y-2">
@@ -31,7 +31,7 @@ const Card_component = () => {
       {/* Card 2 */}
       <div className="max-w-md  bg-gradient-to-r from-teal-400 to-teal-200 rounded-xl overflow-hidden shadow-md mx-auto w-[100%] shadow-slate-700">
         <div className="px-6 py-2">
-          <div className="font-bold text-xl mb-2 border-b border-white pb-1 text-center">
+          <div className="font-bold text-xl mb-2 border-b border-white py-1 pb-2 text-center">
             Budget
           </div>
           <div className="space-y-2">
@@ -54,7 +54,7 @@ const Card_component = () => {
       {/* Card3 */}
       <div className="max-w-md  bg-gradient-to-r from-teal-200 to-teal-400 rounded-xl overflow-hidden mx-auto w-[100%] shadow-lg shadow-slate-700">
         <div className="px-14 py-6">
-          <div className="font-bold text-xl mb-2 border-b border-white pb-1 text-center">
+          <div className="font-bold text-xl mb-2 border-b border-white py-1 pb-2 text-center">
             Accomodation & Restaurant
           </div>
           <div className="space-y-2">

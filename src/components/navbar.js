@@ -4,7 +4,7 @@ const navbar = () => {
     return (
         <div className="h-[15%] flex justify-center items-center bg-[#103a5d] shadow-sm">
             <div className="text-[#cae2f5] text-[35px] font-bold">
-                Travel-Site
+            GenAI Powered Travel Itinerary
             </div>
         </div>
 

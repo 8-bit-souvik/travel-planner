@@ -1,0 +1,215 @@
+{
+    "itinerary": {
+        "task": "Travel itinerary for the trip to Kolkata from 20-12-2023 to 22-12-2023",
+        "number_of_days": "3",
+        "destination/s": "Kolkata",
+        "start_date": "20-12-2023",
+        "end_date": "22-12-2023",
+        "days": {
+            "Day 1": {
+                "attractions": {
+                    "Victoria Memorial": {
+                        "name": "Victoria Memorial",
+                        "Description": "Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria of the United Kingdom and is now a museum and tourist destination under the Ministry of Culture.",
+                        "Detailed Description": "The Victoria Memorial is a magnificent marble building that houses a museum dedicated to the memory of Queen Victoria. The museum displays a collection of art and artifacts from the colonial era, including paintings, sculptures, and historical documents. The memorial is surrounded by beautiful gardens, making it a peaceful and serene place to visit.",
+                        "start_time": "10:00 AM",
+                        "end_time": "12:00 PM",
+                        "Visiting_Hours": "10:00 AM - 5:00 PM",
+                        "rating": "9",
+                        "caution": "Photography is not allowed inside the museum.",
+                        "longitude_of_the_attraction": "22.5448",
+                        "latitude_of_the_attraction": "88.3426",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "+91 33 6606 3800", "22.5732", "88.4174"]
+                    },
+                    "Dakshineswar Kali Temple": {
+                        "name": "Dakshineswar Kali Temple",
+                        "Description": "Dakshineswar Kali Temple is a Hindu temple located in Dakshineswar near Kolkata. It is dedicated to the goddess Kali and is famous for its association with Ramakrishna, a mystic and saint of 19th-century Bengal.",
+                        "Detailed Description": "The Dakshineswar Kali Temple is a famous Hindu temple located on the eastern bank of the Hooghly River. It is dedicated to the goddess Kali and is known for its beautiful architecture and religious significance. The temple complex also includes shrines dedicated to other Hindu gods and goddesses. Visitors can experience the peaceful atmosphere and participate in religious rituals and ceremonies.",
+                        "start_time": "2:00 PM",
+                        "end_time": "4:00 PM",
+                        "Visiting_Hours": "6:00 AM - 12:30 PM, 3:00 PM - 8:30 PM",
+                        "rating": "8",
+                        "caution": "Footwear is not allowed inside the temple.",
+                        "longitude_of_the_attraction": "22.6567",
+                        "latitude_of_the_attraction": "88.3579",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
+                    }
+                },
+ 
+                "restaurants": {
+                    "BreakFast": {
+                        "restaurant_name": "Oh! Calcutta",
+                        "rating": "8",
+                        "speciality": "Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5374",
+                        "latitude_of_the_restaurant": "88.3540",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Ruby General Hospital", "22.5106", "88.3626"]
+                    },
+ 
+                    "Lunch": {
+                        "restaurant_name": "Kewpie's Kitchen",
+                        "rating": "7",
+                        "speciality": "Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5633",
+                        "latitude_of_the_restaurant": "88.3686",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "22.5732", "88.4174"]
+                    },
+ 
+                    "Dinner": {
+                        "restaurant_name": "Bhojohori Manna",
+                        "rating": "9",
+                        "speciality": "Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5376",
+                        "latitude_of_the_restaurant": "88.3497",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "22.5411", "88.3935"]
+                    }
+                }
+            },
+ 
+            "Day 2": {
+                "attractions": {
+                    "Howrah Bridge": {
+                        "name": "Howrah Bridge",
+                        "Description": "Howrah Bridge is a suspension bridge that spans the Hooghly River in West Bengal, India. It is one of the most famous landmarks of Kolkata and is an engineering marvel.",
+                        "Detailed Description": "The Howrah Bridge is an iconic symbol of Kolkata and is one of the busiest bridges in the world. It is a suspension bridge that spans the Hooghly River and connects the city of Kolkata with the district of Howrah. The bridge is a marvel of engineering and is a must-visit attraction for tourists. Visitors can walk on the bridge and enjoy the panoramic views of the river and the city skyline.",
+                        "start_time": "10:00 AM",
+                        "end_time": "11:00 AM",
+                        "Visiting_Hours": "24 hours",
+                        "rating": "9",
+                        "caution": "No photography allowed on the bridge.",
+                        "longitude_of_the_attraction": "22.5851",
+                        "latitude_of_the_attraction": "88.3468",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "+91 33 6606 3800", "22.5732", "88.4174"]
+                    },
+                    "Belur Math": {
+                        "name": "Belur Math",
+                        "Description": "Belur Math is the headquarters of the Ramakrishna Math and Ramakrishna Mission, and is a spiritual and cultural center in West Bengal, India.",
+                        "Detailed Description": "Belur Math is a spiritual and cultural center located on the banks of the Hooghly River. It is the headquarters of the Ramakrishna Math and Ramakrishna Mission and is dedicated to the teachings of Sri Ramakrishna Paramahamsa. The campus of Belur Math includes temples, meditation halls, a museum, and a library. Visitors can explore the serene surroundings and participate in spiritual activities and rituals.",
+                        "start_time": "2:00 PM",
+                        "end_time": "4:00 PM",
+                        "Visiting_Hours": "6:00 AM - 12:00 PM, 4:00 PM - 8:00 PM",
+                        "rating": "8",
+                        "caution": "Maintain silence and respect the religious sentiments of others.",
+                        "longitude_of_the_attraction": "22.6358",
+                        "latitude_of_the_attraction": "88.3559",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
+                    }
+                },
+ 
+                "restaurants": {
+                    "BreakFast": {
+                        "restaurant_name": "Flurys",
+                        "rating": "9",
+                        "speciality": "Bakery and confectionery",
+                        "longitude_of_the_restaurant": "22.5514",
+                        "latitude_of_the_restaurant": "88.3520",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Ruby General Hospital", "22.5106", "88.3626"]
+                    },
+ 
+                    "Lunch": {
+                        "restaurant_name": "6 Ballygunge Place",
+                        "rating": "8",
+                        "speciality": "Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5371",
+                        "latitude_of_the_restaurant": "88.3540",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "22.5732", "88.4174"]
+                    },
+ 
+                    "Dinner": {
+                        "restaurant_name": "Arsalan",
+                        "rating": "7",
+                        "speciality": "Mughlai cuisine",
+                        "longitude_of_the_restaurant": "22.5225",
+                        "latitude_of_the_restaurant": "88.3640",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "22.5411", "88.3935"]
+                    }
+                }
+            },
+ 
+            "Day 3": {
+                "attractions": {
+                    "Indian Museum": {
+                        "name": "Indian Museum",
+                        "Description": "The Indian Museum is the largest and oldest museum in India and has a vast collection of art, archaeology, and natural history.",
+                        "Detailed Description": "The Indian Museum is a treasure trove of Indian art, archaeology, and natural history. It is the largest and oldest museum in India and houses a vast collection of artifacts, including sculptures, paintings, coins, and fossils. The museum provides a comprehensive insight into the rich cultural heritage of India. Visitors can explore the various galleries and learn about the history and diversity of the country.",
+                        "start_time": "10:00 AM",
+                        "end_time": "1:00 PM",
+                        "Visiting_Hours": "10:00 AM - 5:00 PM",
+                        "rating": "7",
+                        "caution": "Photography is not allowed inside the museum.",
+                        "longitude_of_the_attraction": "22.5616",
+                        "latitude_of_the_attraction": "88.3516",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "+91 33 6606 3800", "22.5732", "88.4174"]
+                    },
+                    "Princep Ghat": {
+                        "name": "Princep Ghat",
+                        "Description": "Princep Ghat is a riverside promenade and monument in Kolkata, situated on the banks of the Hooghly River.",
+                        "Detailed Description": "Princep Ghat is a popular riverside promenade located on the banks of the Hooghly River. It is named after James Prinsep, a British scholar and antiquary. The ghat offers a picturesque view of the river and is a popular spot for leisurely walks and boat rides. Visitors can also enjoy the beautiful sunset and indulge in street food available nearby.",
+                        "start_time": "3:00 PM",
+                        "end_time": "5:00 PM",
+                        "Visiting_Hours": "24 hours",
+                        "rating": "8",
+                        "caution": "Beware of pickpockets in crowded areas.",
+                        "longitude_of_the_attraction": "22.5736",
+                        "latitude_of_the_attraction": "88.3345",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
+                    }
+                },
+ 
+                "restaurants": {
+                    "BreakFast": {
+                        "restaurant_name": "Indian Coffee House",
+                        "rating": "8",
+                        "speciality": "Indian snacks and coffee",
+                        "longitude_of_the_restaurant": "22.5724",
+                        "latitude_of_the_restaurant": "88.3648",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Ruby General Hospital", "22.5106", "88.3626"]
+                    },
+ 
+                    "Lunch": {
+                        "restaurant_name": "6 Ballygunge Place",
+                        "rating": "8",
+                        "speciality": "Bengali cuisine",
+                        "longitude_of_the_restaurant": "22.5371",
+                        "latitude_of_the_restaurant": "88.3540",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "22.5732", "88.4174"]
+                    },
+ 
+                    "Dinner": {
+                        "restaurant_name": "Peter Cat",
+                        "rating": "9",
+                        "speciality": "Continental and Chinese cuisine",
+                        "longitude_of_the_restaurant": "22.5570",
+                        "latitude_of_the_restaurant": "88.3547",
+                        "Emergency_contact": "911",
+                        "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "22.5411", "88.3935"]
+                    }
+                }
+            }
+        },
+ 
+        "accommodation": {
+            "hotel name": "Taj Bengal Kolkata",
+            "rating": "9",
+            "speciality": "Luxury accommodation with spa and swimming pool",
+            "longitude_of_the_hotel": "22.5383",
+            "latitude_of_the_hotel": "88.3665",
+            "Emergency_contact": "911",
+            "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "22.5411", "88.3935"]
+        },
+ 
+        "budget": {
+            "accommodation": "INR 10,000 per night",
+            "restaurant": "INR 1,500 per meal",
+            "Total estimate including other charges": "INR 20,000"
+        }
+    }
+}

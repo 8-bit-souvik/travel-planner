@@ -11,7 +11,7 @@ export default function App({ data, IteneraryState, updateAccordianIndex }) {
 
 
   return (
-    <Accordion defaultExpandedKeys={["1"]} onSelectionChange={(e) => { updateAccordianIndex(e["currentKey"]-1) }} >
+    <Accordion defaultExpandedKeys={["1"]} onSelectionChange={(e) => { updateAccordianIndex(e["currentKey"]-1)}} >
       <AccordionItem
         key="1"
         aria-label="Day 1"
