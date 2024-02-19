@@ -14,7 +14,7 @@ const Card_component = () => {
           <div className="space-y-2">
             <div className="flex">
               <div className="mr-2">🌤️</div>
-              <div>Weather: 14-26 deg , Partial Cloudy</div>
+              <div>Weather: 14-26°C , Partial Cloudy</div>
             </div>
             <div className="flex">
               <div className="mr-2">⏳</div>

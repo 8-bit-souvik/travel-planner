@@ -11,8 +11,8 @@ const Date_Time = () => {
   }, []);
 
   return (
-    <div className="text-lg text-gray-300 bg-[#296799] p-2 rounded-md">
-      {format(currentDateTime, 'EEEE, MMMM d, yyyy')} | {format(currentDateTime, 'h:mm a')}
+    <div suppressHydrationWarning={true} className="text-lg text-gray-300 bg-[#296799] p-2 rounded-md">
+      {format(currentDateTime, 'EEEE, MMMM d, yyyy')} | {format(currentDateTime, 'h:mm:ss a')}
     </div>
   );
 };
