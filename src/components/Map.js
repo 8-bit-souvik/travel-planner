@@ -44,7 +44,7 @@ const Map = ({ customiseTripModal, accordianData, personaliseTripModal }) => {
 
 
       <div className="h-3/5 relative shadow-lg shadow-slate-700">
-        <MapComponent  positions={accordianPositions} zoom={8} />
+        <MapComponent  positions={accordianPositions} zoom={10} />
       </div>
     </div>
   );

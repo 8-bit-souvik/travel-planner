@@ -58,7 +58,7 @@ export default function Itenerary_Modal({ iteneraryData }) {
 
                 <MapComponent
                   positions={positions}
-                  zoom={10}
+                  zoom={12}
                 />
 
               </ModalBody>

@@ -17,8 +17,8 @@
                         "Visiting_Hours": "10:00 AM - 5:00 PM",
                         "rating": "9",
                         "caution": "Photography is not allowed inside the museum.",
-                        "longitude_of_the_attraction": "22.5448",
-                        "latitude_of_the_attraction": "88.3426",
+                        "longitude_of_the_attraction": "88.3425578",
+                        "latitude_of_the_attraction": "22.5448082",
                         "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "+91 33 6606 3800", "22.5732", "88.4174"]
                     },
                     "Dakshineswar Kali Temple": {
@@ -30,8 +30,8 @@
                         "Visiting_Hours": "6:00 AM - 12:30 PM, 3:00 PM - 8:30 PM",
                         "rating": "8",
                         "caution": "Footwear is not allowed inside the temple.",
-                        "longitude_of_the_attraction": "22.6567",
-                        "latitude_of_the_attraction": "88.3579",
+                        "longitude_of_the_attraction": "88.357466",
+                        "latitude_of_the_attraction": "22.655293",
                         "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
                     }
                 },
@@ -80,8 +80,8 @@
                         "Visiting_Hours": "24 hours",
                         "rating": "9",
                         "caution": "No photography allowed on the bridge.",
-                        "longitude_of_the_attraction": "22.5851",
-                        "latitude_of_the_attraction": "88.3468",
+                        "longitude_of_the_attraction": "88.346993",
+                        "latitude_of_the_attraction": "22.585096",
                         "Nearest_Hospital": ["AMRI Hospitals, Salt Lake", "+91 33 6606 3800", "22.5732", "88.4174"]
                     },
                     "Belur Math": {
@@ -93,8 +93,8 @@
                         "Visiting_Hours": "6:00 AM - 12:00 PM, 4:00 PM - 8:00 PM",
                         "rating": "8",
                         "caution": "Maintain silence and respect the religious sentiments of others.",
-                        "longitude_of_the_attraction": "22.6358",
-                        "latitude_of_the_attraction": "88.3559",
+                        "longitude_of_the_attraction": "88.355503",
+                        "latitude_of_the_attraction": "22.626381",
                         "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
                     }
                 },
@@ -143,8 +143,8 @@
                         "Visiting_Hours": "24 hours",
                         "rating": "8",
                         "caution": "Beware of pickpockets in crowded areas.",
-                        "longitude_of_the_attraction": "22.5736",
-                        "latitude_of_the_attraction": "88.3345",
+                        "longitude_of_the_attraction": "88.3286111",
+                        "latitude_of_the_attraction": "22.5555474",
                         "Nearest_Hospital": ["Apollo Gleneagles Hospitals", "+91 33 2320 3040", "22.5411", "88.3935"]
                     }
                 },
