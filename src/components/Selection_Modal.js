@@ -65,13 +65,13 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                       <div className="font-bold mb-2">Places</div>
                       <div>
                         <input type="checkbox" className="mr-2 mb-4 mt-1" />{" "}
-                        Victoria
+                        Victoria Memorial
+                      </div>
+                      <div className="text-nowrap">
+                        <input type="checkbox" className="mr-2 mb-4" />Dakshineswar Kali Temple
                       </div>
                       <div>
-                        <input type="checkbox" className="mr-2 mb-4" /> Temple
-                      </div>
-                      <div>
-                        <input type="checkbox" className="mr-2 mb-4" /> Howrah
+                        <input type="checkbox" className="mr-2 mb-4" /> Howrah Bridge
                       </div>
                     </div>
                     <div className="w-1/3">
@@ -79,13 +79,13 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                       <div className="font-bold mb-2">Other Places</div>
                       <div>
                         <input type="checkbox" className="mr-2 mb-4 mt-1" />{" "}
-                        Belur
+                        Belur Math
                       </div>
                       <div>
-                        <input type="checkbox" className="mr-2 mb-4" /> Eco Park
+                        <input type="checkbox" className="mr-2 mb-4" />Indian Museum
                       </div>
                       <div>
-                        <input type="checkbox" className="mr-2 mb-4" /> Museum
+                        <input type="checkbox" className="mr-2 mb-4" />Princep Ghat
                       </div>
                     </div>
                   </div>
@@ -116,6 +116,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="start-time-day-1">
                             Select Start Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
@@ -124,6 +139,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="start-time-day-2">
                             Select Start Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
@@ -132,6 +162,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="start-time-day-3">
                             Select Start Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
@@ -144,6 +189,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="end-time-day-1">
                             Select End Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
@@ -152,6 +212,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="end-time-day-2">
                             Select End Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
@@ -160,6 +235,21 @@ export default function Selection_modal({ modalstate, accordionNumber }) {
                           <option value="end-time-day-3">
                             Select End Time
                           </option>
+                          <option value="8:00am">8:00am</option>
+                          <option value="9:00am">9:00am</option>
+                          <option value="10:00am">10:00am</option>
+                          <option value="11:00am">11:00am</option>
+                          <option value="12:00am">12:00am</option>
+                          <option value="1:00pm">1:00pm</option>
+                          <option value="2:00pm">2:00pm</option>
+                          <option value="3:00pm">3:00pm</option>
+                          <option value="4:00pm">4:00pm</option>
+                          <option value="5:00pm">5:00pm</option>
+                          <option value="6:00pm">6:00pm</option>
+                          <option value="7:00pm">7:00pm</option>
+                          <option value="8:00pm">8:00pm</option>
+                          <option value="9:00pm">9:00pm</option>
+                          <option value="10:00pm">10:00pm</option>
                           {/* Add your time options here */}
                         </select>
                       </div>
