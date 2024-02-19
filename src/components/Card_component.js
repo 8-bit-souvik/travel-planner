@@ -14,15 +14,15 @@ const Card_component = () => {
           <div className="space-y-2">
             <div className="flex">
               <div className="mr-2">🌤️</div>
-              <div>Weather: Sunny with a touch of history</div>
+              <div>Weather: 14-26 deg , Partial Cloudy</div>
             </div>
             <div className="flex">
               <div className="mr-2">⏳</div>
-              <div>Ideal duration for travel: 3-4 days</div>
+              <div>Ideal duration for travel: 3 days</div>
             </div>
             <div className="flex">
               <div className="mr-2">🌟</div>
-              <div>Best Time to visit: All year round, but avoid monsoon</div>
+              <div>Best Time to visit: October to March</div>
             </div>
           </div>
         </div>
